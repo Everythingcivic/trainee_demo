@@ -30,6 +30,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 
 gem 'mongoid'
+gem "mongoid-paperclip", :require => "mongoid_paperclip"
+gem 'aws-sdk', '~> 1.3.4'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
